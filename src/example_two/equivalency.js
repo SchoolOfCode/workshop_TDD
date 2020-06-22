@@ -1,3 +1,3 @@
-const equivalency = (x, y) => false;
+const equivalency = (x, y) => x == y;
 
 export default equivalency;
