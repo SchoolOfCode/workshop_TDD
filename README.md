@@ -1,2 +1,30 @@
 # school-of-code-TDD
 Simple TDD examples for School of Code
+
+## Installation
+1) You will require [Node](https://nodejs.org/en/) to install dependecies
+2) Navigate to the root directory
+3) Run `npm i` / `npm install`
+4) If you want to run tests it is `npm test` or depending on your IDE you can run individual tests by clicking on them
+
+
+## Test-Driven Development practice
+For each example please do the following:
+1) Implement a test based on the problem statement
+2) Commit the test
+3) Fix the code - debugging/stepping-through a test run time if required
+4) Test should now pass and you can Commit the Fix
+5) _OPTIONAL_: Apply any refactoring / tidy up of the code base, re-run the tests, they should all pass and then Commit any changes.
+
+### Example 1
+Guided example
+
+### Example 2 
+This function should compare values and return if they are equal or not.
+
+Problem:
+This seems to work in most cases; but we have discovered an issue when comparing 2 as a string and 2 as a number, 
+it states these are equivalent when it should not.
+
+### Example 3
+This function should iterate over an array and sum all the values.
