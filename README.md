@@ -16,15 +16,33 @@ For each example please do the following:
 4) Test should now pass and you can Commit the Fix
 5) _OPTIONAL_: Apply any refactoring / tidy up of the code base, re-run the tests, they should all pass and then Commit any changes.
 
+
 ### Example 1
 Guided example
+
 
 ### Example 2 
 This function should compare values and return if they are equal or not.
 
-Problem:
+**Problem:**
+
 This seems to work in most cases; but we have discovered an issue when comparing 2 as a string and 2 as a number, 
 it states these are equivalent when it should not.
 
+
 ### Example 3
-This function should iterate over an array and sum all the values.
+We have inherited a function which appears to print out a string of numbers from an array.
+
+**Problem:**
+
+We have no documentation for this function, we would like to use our test suite to create some living documentation for 
+this function. Within your group can you construct a testing document using "Given, When, Then" statements to describe 
+the functionality of Example 3, and then implement one or all of those tests.
+
+**Given-When-Then example:**
+
+Given an array containing Cheese,
+
+When Alice invokes the Cheese-transformation API,
+
+Then she is returned a block of Stilton.
