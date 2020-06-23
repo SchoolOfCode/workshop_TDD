@@ -5,7 +5,7 @@ Simple TDD examples for School of Code
 1) You will require [Node](https://nodejs.org/en/) to install dependecies
 2) Navigate to the root directory
 3) Run `npm i` / `npm install`
-4) If you want to run tests it is `npm test` or depending on your IDE you can run individual tests by clicking on them
+4) If you want to run tests it is `npm run test` or depending on your IDE you can run individual tests by clicking on them
 
 
 ## Test-Driven Development practice
