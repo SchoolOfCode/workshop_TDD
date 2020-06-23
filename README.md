@@ -2,7 +2,7 @@
 Simple TDD examples for School of Code
 
 ## Installation
-1) You will require [Node](https://nodejs.org/en/) to install dependecies
+1) You will require [Node](https://nodejs.org/en/) to install dependencies
 2) Navigate to the root directory
 3) Run `npm i` / `npm install`
 4) If you want to run tests it is `npm run test` or depending on your IDE you can run individual tests by clicking on them
@@ -14,7 +14,7 @@ For each example please do the following:
 2) Commit the test
 3) Fix the code - debugging/stepping-through a test run time if required
 4) Test should now pass and you can Commit the Fix
-5) _OPTIONAL_: Apply any refactoring / tidy up of the code base, re-run the tests, they should all pass and then Commit any changes.
+5) Apply any refactoring / tidy up of the code base, re-run the tests, they should all pass and then Commit any changes.
 
 
 ### Example 1
@@ -38,6 +38,8 @@ We have inherited a function which appears to print out a string of numbers from
 We have no documentation for this function, we would like to use our test suite to create some living documentation for 
 this function. Within your group can you construct a testing document using "Given, When, Then" statements to describe 
 the functionality of Example 3, and then implement one or all of those tests.
+
+Once your testing is complete; we would like you to refactor this example to make it more maintainable going forwards.
 
 **Given-When-Then example:**
 
