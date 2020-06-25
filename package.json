@@ -4,7 +4,7 @@
   "description": "Examples of TDD problem solving in node.js for School of Code",
   "main": "src/example_one/example_1.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --verbose"
   },
   "repository": {
     "type": "git",
