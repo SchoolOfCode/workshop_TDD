@@ -1,5 +1,5 @@
 const capitaliseName = ({
   name = '',
-} = {}) => name.toUpperCase();
+} = {}) => (name ? name.toUpperCase() : '');
 
 export default capitaliseName;
