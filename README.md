@@ -48,3 +48,6 @@ Given an array containing Cheese,
 When Alice invokes the Cheese-transformation API,
 
 Then she is returned a block of Stilton.
+
+### Stretch-Goal: Make your own CodeWars Kata!
+Design your own problem statement, write at least Four tests to cover the logic of that test, so that if someone fixed the functional/production code; your tests would pass. 
