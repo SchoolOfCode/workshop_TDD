@@ -41,7 +41,7 @@ describe('when both x and y are numbers', () => {
 });
 
 describe('when x is a string and y is a number', () => {
-  const x = 'two';
+  const x = '2';
 
   const y = 2;
 
