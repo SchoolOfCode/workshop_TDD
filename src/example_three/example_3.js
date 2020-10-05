@@ -18,7 +18,7 @@ const example3 = (arr) => logger.info(`Example Three invoked with:
       .filter(removeOddNumbers)
       .sort()
       .reduce((acc, curr, index) => {
-        if (curr === acc[index + 1]) {
+        if (curr === acc[index - 1]) {
           return acc;
         }
 
