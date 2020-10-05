@@ -17,8 +17,14 @@ For each example please do the following:
 5) Apply any refactoring / tidy up of the code base, re-run the tests, they should all pass and then Commit any changes.
 
 
+**All the tests in Examples 1 and 2 are correct, they are written as intended, there are just some curveballs of Js quirks in them;
+so you are required to fix the code!**
+
 ### Example 1
-Guided example
+This function should capitalise a string provided in an object named 'event'.
+
+**Problem:**
+This throws an error because toUpperCase is undefined in some test cases, yet we are using destructuring and defaulting.
 
 
 ### Example 2 
